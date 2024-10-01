@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delicious SAI</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurante SAI delicious</h1>
+    </header>
+    
+    <section class="menu">
+        <h2>Menú</h2>
+        <ul>
+            <li><strong>Entradas</strong>
+                <ol>
+                    <li>
+                        <strong>ceviche de camarones</strong> - $10.000
+                        <p>camarones pre cocidos, jugo de limón, cebolla morada cortada en julianas, cilantro y ají amarillo.</p>
+                    </li>
+                    <li>
+                        <strong>Brusc</strong> - $8.000
+                        <p>Rebanadas de pan tostado con tomate, albahaca y ajo.</p>
+                    </li>
+                </ol>
+            </li>
+            <li><strong>Platos Principales</strong>
+                <ol>
+                    <li>
+                        <strong>Rondon</strong> - $35.000
+                        <p>es una sopa a base der leche de coco, cocinada con diferentes tipos de productos del mar(pescados, langostas, caracol, etc) acompañado tambien de bastimentos como (platano, ñame, papa, yuca, etc).</p>
+                    </li>
+                    <li>
+                        <strong>plato de Fish ball</strong> - $30.000
+                        <p>albondigas de pescado, acompañadas con arroz de coco, tajaditas d fruta de pan y ensalada.</p>
+                    </li>
+                </ol>
+            </li>
+            <li><strong>Postres</strong>
+                <ol>
+                    <li>
+                        <strong>Crab patty</strong> - $7.000
+                        <p>empanadas de cangrejo, nativas de la Isla.</p>
+                    </li>
+                    <li>
+                        <strong>plantain tart</strong> - $6.000
+                        <p>empanadas de arina rellenas de dulce de platano maduro.</p>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+
+    <section class="reservaciones">
+        <h2>Reservaciones</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="personas">Número de personas:</label>
+            <input type="number" id="personas" name="personas" min="1" max="20" required>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurante SAI delicious. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
